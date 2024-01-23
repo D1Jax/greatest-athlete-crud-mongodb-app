@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.athlete {
+    background: #fff;
+    color: #000;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.athlete span {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.fa-thumbs-up, .fa-trash {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.fa-thumbs-up:hover, .fa-trash:hover {
+    color: #007BFF;
+}
+
+/* Style for the like count */
+.likes {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.2em;
+    color: #ff6347; /* Tomato color */
+    font-weight: bold;
+}
+
+/* Style for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+}
+
+.athletes {
+    list-style-type: none;
+}
+
+.fa-trash {
+    float: right;
+}
+
+.athlete {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    align-items: center;
+    background: #fff;
+    color: #000;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    border: 2px solid #000; /* Change the color as needed */
+    border-radius: 10px; /* Adjust the radius as needed */
+    padding: 10px; /* Add some padding */
+    margin: 10px;
+}
